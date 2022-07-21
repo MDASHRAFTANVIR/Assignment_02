@@ -117,7 +117,7 @@ a{
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #2d5f99;
+  background-color: rgb(90, 182, 240);
   border-radius: 15px;
 }
 .page-btn{
@@ -131,7 +131,7 @@ a{
   border-radius: 10px;
 }
 .colored-button{
-  background-color: rgb(235, 38, 38);
+  background-color: rgb(219, 55, 55);
   color: #ffffff;
 }
 .blogs{
