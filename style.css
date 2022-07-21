@@ -1,0 +1,369 @@
+
+/*--------- CSS For Body ----------*/
+/*--------- CSS For Body ----------*/
+/*--------- CSS For Body ----------*/
+
+body{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+/*------------ Header Section Start ---------------*/
+/*------------ Header Section Start ---------------*/
+/*------------ Header Section Start ---------------*/
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  margin: 40px 0;
+  position: relative;
+}
+.header-info{
+  width: 55%;
+  margin-left: 7vw ;
+  z-index: 334;
+}
+
+/* Header title */
+.header-title{
+  font-size: 4vw;
+  font-weight: 700px;
+  color:#FFFFFF;
+  line-height: 1.1em;
+  margin-top: 7vw;
+  margin-bottom: 26px;
+}
+
+/* Header Description */
+.header-description{
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 1vw;
+  margin-bottom: 20px;
+}
+.header-description br{
+  display: none;
+}
+
+/* Button */
+.button{
+  display: flex;
+  align-items: center;
+  background-color: rgb(247, 21, 21);
+  color: #FFFFFF;
+  width: 140px;
+  padding: 15px 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: rgb(0, 152, 223);
+
+}
+.watch-live-btn{
+  color: #FFFFFF;
+  margin: 0 10px;
+}
+.header-image{
+  width: 50%;
+  z-index: 334;
+}
+.header-image img{
+  width:90%;
+  margin-top: 35px;
+  margin-bottom: -7px;
+}
+.overlay{
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgb(72, 0, 72, 0.6), rgb(192, 72, 72, 0.8)), url("images/animation-image.png");
+  position: absolute;
+}
+
+
+/* -------- Blog Section Start -------*/
+/* -------- Blog Section Start -------*/
+/* -------- Blog Section Start -------*/
+
+.blog-page{
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  column-gap: 15px;
+  margin: 50px auto;
+}
+.blog-page-buttons{
+  height: 290px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #2d5f99;
+  border-radius: 15px;
+}
+.page-btn{
+  font-size: 17px;
+  color: #161616;
+  padding: 15px 10px;
+  background-color: #fff;
+  width: 77%;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.colored-button{
+  background-color: rgb(235, 38, 38);
+  color: #ffffff;
+}
+.blogs{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 15px;
+  column-gap: 15px;
+}
+.blog{
+  border: 2px solid #e4e1e1;
+  border-radius: 20px;
+}
+.blog-img{
+  text-align: center;
+}
+.blog-img img{
+  width: 100%;
+  
+}
+.blog-details{
+  margin-left: 20px;
+}
+.blog-button{
+  font-weight: 500;
+  padding: 3px 15px;
+  border-radius: 6px;
+  margin-top: 10px;
+  background-color: lightskyblue;
+  color: #161616;
+}
+.blog-button:hover {
+  color: whitesmoke;
+  background-color: rgb(255, 37, 37);
+}
+.blog-description{
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.other-about-blog{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.other-about-blog p{
+  margin-right: 40px;
+  color: #161616b3;
+}
+.other-about-blog .fa-regular{
+  margin-right: 5px;
+}
+
+/* Section for Tab */
+.view-all-btn{
+  display: block;
+  width: 9%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  color: #ffffff;
+  display: none;
+  font-size: 20px;
+}
+
+/* -------- Blog Section End -------*/
+/* -------- Blog Section End -------*/
+/* -------- Blog Section End -------*/
+
+
+/*---------------- Footer Start -------------  */
+/*---------------- Footer Start -------------  */
+/*---------------- Footer Start -------------  */
+
+footer{
+  background-color: rgb(2, 1, 1) ;
+  padding: 50px 0;
+}
+#footer-title{
+  font-weight: 600;
+  font-size: 2.5em;
+  text-align: center;
+  color: #edeff1;
+}
+.fifa {
+  color: red;
+}
+footer hr{
+  border: none;
+  border-bottom:  1px solid  #bac4d4;
+  width: 70%;
+}
+nav {
+  width: 58%;
+  margin: 30px auto 0;
+  text-align: center;
+}
+.nav-link{
+  padding-right: 18px;
+  color:#8fa8d3 ;
+  font-weight: 500;
+  font-size: 14px;
+}
+.nav-link:hover,.social-link .fa-brands:hover{
+  color:#0885eb;
+}
+.social-link{
+  margin-top: 25px;
+}
+.social-link .fa-brands{
+  color: #ffffff;
+  font-size: 30px;
+  padding: 0 5px;
+}
+
+/*---------------- Footer End ---- -------------  */
+/*---------------- Footer End ---- -------------  */
+/*---------------- Footer End ---- -------------  */
+
+
+
+/* -----It is Time to add some media Queries -------*/
+
+
+/*---------- Media Queries ----------*/
+
+@media only screen and (max-width:576px) {
+  /*---- header-responsive ------*/
+  .header-content{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  .header-info{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .header-title{
+    font-size: 35px;
+    line-height: 1.2em;
+    margin-top: 60px;
+  }
+  .header-description{
+    font-size: 14px;
+    width: 73%;
+    margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .header-description br{
+    display: inline;
+  }
+  .button{
+    width: 120px;
+    margin: 20px auto;
+  }
+  .overlay {
+    background-position: center;
+    background-size: cover;
+  }
+  .header-image{
+    width: 80%;
+    margin-left: 30px;
+  }
+  .header-image img{
+    width: 100%;
+    
+  }
+  /*------ blog section responsive ----------*/
+  .blog-page{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 0;
+  }
+  .blog-page-buttons{
+    background-color: #fff;
+  }
+  .page-btn{
+    border:  1px solid  #2A69D6;
+    width: 50%;
+  }
+  .blogs{
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 30px;
+  }
+  .blog-details{
+    font-size: 25px;
+  }
+  /*--------- footer responsive -------------*/
+  footer{
+    padding-top: 20px;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-link{
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width:577px) and (max-width:991px){ 
+  /*------ blog section responsive ----------*/
+  .overlay {
+    background-position: center;
+    background-size: cover;
+  }
+  .blog-page{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 0;
+  }
+  .blog-page-buttons{
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    margin: 30px 0;
+    background-color: #fff;
+  }
+  .page-btn{
+    width: 150px;
+    border:  1px solid  #2A69D6;
+  }
+  .blogs{
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+  }
+  .view-all-btn{
+    display: block;
+  }
+  /*--------- footer responsive -------------*/
+  footer{
+    padding-top: 20px;
+  }
+  
+}
