@@ -338,9 +338,9 @@ nav {
     font-size: 25px;
   }
 
-  /*--------- Responsive for Blog Section start ----------*/
-  /*--------- Responsive for Blog Section start ----------*/
-  /*--------- Responsive for Blog Section start ----------*/
+  /*--------- Responsive for Blog Section End ----------*/
+  /*--------- Responsive for Blog Section End ----------*/
+  /*--------- Responsive for Blog Section End ----------*/
 
 
   /*----------- Responsive For Footer Section Start---------------*/
@@ -357,16 +357,18 @@ nav {
   .nav-link{
     margin-top: 10px;
   }
-/*----------- Responsive For Footer Section Start---------------*/
-/*----------- Responsive For Footer Section Start---------------*/
-/*----------- Responsive For Footer Section Start---------------*/
+/*----------- Responsive For Footer Section End---------------*/
+/*----------- Responsive For Footer Section End---------------*/
+/*----------- Responsive For Footer Section End---------------*/
 }
 
 
 @media only screen and (min-width:577px) and (max-width:991px){ 
+
   /*--------- Responsive for Blog Section start ----------*/
   /*--------- Responsive for Blog Section start ----------*/
   /*--------- Responsive for Blog Section start ----------*/
+
   .overlay {
     background-position: center;
     background-size: cover;
@@ -394,9 +396,20 @@ nav {
   .view-all-btn{
     display: block;
   }
-  /*--------- footer responsive -------------*/
+
+        /*--------- Responsive for Blog Section End ----------*/
+        /*--------- Responsive for Blog Section End ----------*/
+        /*--------- Responsive for Blog Section End ----------*/
+
+
+
+        /* Responsive For Footer Section */
+        /* Responsive For Footer Section */
+        /* Responsive For Footer Section */
   footer{
     padding-top: 20px;
   }
   
 }
+
+/* Thank you for your patience in checking my coding. */
