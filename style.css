@@ -127,8 +127,12 @@ a{
   background-color: #fff;
   width: 77%;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 10px;
+}
+.page-btn:hover {
+  background-color: rgb(6, 46, 65);
+  color: white;
 }
 .colored-button{
   background-color: rgb(219, 55, 55);
