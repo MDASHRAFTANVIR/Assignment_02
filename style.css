@@ -361,8 +361,12 @@ nav {
 /*----------- Responsive For Footer Section Start---------------*/
 /*----------- Responsive For Footer Section Start---------------*/
 }
+
+
 @media only screen and (min-width:577px) and (max-width:991px){ 
-  /*------ blog section responsive ----------*/
+  /*--------- Responsive for Blog Section start ----------*/
+  /*--------- Responsive for Blog Section start ----------*/
+  /*--------- Responsive for Blog Section start ----------*/
   .overlay {
     background-position: center;
     background-size: cover;
