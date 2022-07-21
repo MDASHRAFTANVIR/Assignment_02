@@ -255,9 +255,16 @@ nav {
 
 
 /*---------- Media Queries ----------*/
+/*---------- Media Queries ----------*/
+/*---------- Media Queries ----------*/
 
 @media only screen and (max-width:576px) {
-  /*---- header-responsive ------*/
+
+
+  /*---- Responsive for Header Section Start ------*/
+  /*---- Responsive for Header Section Start ------*/
+  /*---- Responsive for Header Section Start ------*/
+
   .header-content{
     display: flex;
     flex-direction:column;
@@ -300,7 +307,17 @@ nav {
     width: 100%;
     
   }
-  /*------ blog section responsive ----------*/
+
+  /*---- Responsive for Header Section End ------*/
+  /*---- Responsive for Header Section End ------*/
+  /*---- Responsive for Header Section End ------*/
+
+
+
+  /*--------- Responsive for Blog Section start ----------*/
+  /*--------- Responsive for Blog Section start ----------*/
+  /*--------- Responsive for Blog Section start ----------*/
+
   .blog-page{
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -320,7 +337,16 @@ nav {
   .blog-details{
     font-size: 25px;
   }
-  /*--------- footer responsive -------------*/
+
+  /*--------- Responsive for Blog Section start ----------*/
+  /*--------- Responsive for Blog Section start ----------*/
+  /*--------- Responsive for Blog Section start ----------*/
+
+
+  /*----------- Responsive For Footer Section Start---------------*/
+  /*----------- Responsive For Footer Section Start---------------*/
+  /*----------- Responsive For Footer Section Start---------------*/
+
   footer{
     padding-top: 20px;
   }
@@ -331,6 +357,9 @@ nav {
   .nav-link{
     margin-top: 10px;
   }
+/*----------- Responsive For Footer Section Start---------------*/
+/*----------- Responsive For Footer Section Start---------------*/
+/*----------- Responsive For Footer Section Start---------------*/
 }
 @media only screen and (min-width:577px) and (max-width:991px){ 
   /*------ blog section responsive ----------*/
