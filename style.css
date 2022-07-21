@@ -45,7 +45,40 @@ a{
   line-height: 1.1em;
   margin-top: 7vw;
   margin-bottom: 26px;
+  animation: color-animation 3s linear infinite;
 }
+.header-title {
+  --color-1: #f7f4f3;
+  --color-2: #4dc6fa;
+  --color-3: #eee34c;
+}
+
+/* Keyframe Rules for changing Heading Color Gradually  */
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1)
+  }
+  32% {
+    color: var(--color-1)
+  }
+  33% {
+    color: var(--color-2)
+  }
+  65% {
+    color: var(--color-2)
+  }
+  66% {
+    color: var(--color-3)
+  }
+  99% {
+    color: var(--color-3)
+  }
+  100% {
+    color: var(--color-1)
+  }
+}
+/* Keyframe Rules for changing Heading Color Gradually End */
 
 /* Header Description */
 .header-description{
@@ -98,6 +131,11 @@ a{
   background: linear-gradient(rgb(72, 0, 72, 0.6), rgb(192, 72, 72, 0.8)), url("images/animation-image.png");
   position: absolute;
 }
+
+
+/*------------ Header Section End ---------------*/
+/*------------ Header Section End ---------------*/
+/*------------ Header Section End ---------------*/
 
 
 /* -------- Blog Section Start -------*/
