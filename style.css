@@ -51,8 +51,8 @@ a{
 .header-description{
   font-weight: 400;
   color: #FFFFFF;
-  font-size: 1vw;
-  margin-bottom: 20px;
+  font-size: 1.1vw;
+  margin-bottom: 30px;
 }
 .header-description br{
   display: none;
